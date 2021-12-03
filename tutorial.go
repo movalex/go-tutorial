@@ -8,6 +8,8 @@ func main() {
 	// var name string = "Alex"
 
 	name := "Alex" // guess type
-	fmt.Printf("Hello %v, how are you doing?", name)
+	age := 39
+
+	fmt.Printf("Hello %v, how are you doing? You are %v years old, sadly", name, age)
 
 }

@@ -24,5 +24,7 @@ func main() {
 	var answer string
 
 	fmt.Scan(&answer) // scan stores only first word as first argument
+	// starting from 40 min the tutorial is basically useless, I will need something more advanced
+	// for quiz of this type we will need to check and foolproof the user input
 	fmt.Println(answer)
 }

@@ -17,5 +17,12 @@ func main() {
 		fmt.Printf("Yay, you can play game!\n")
 	} else {
 		fmt.Println("You can't play!")
+		return // end program
 	}
+
+	fmt.Printf("What is a capital if USA? ")
+	var answer string
+
+	fmt.Scan(&answer) // scan stores only first word as first argument
+	fmt.Println(answer)
 }
